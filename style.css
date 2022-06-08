@@ -5,8 +5,9 @@ h1{color:grey;font-family:verdana}
 .maindiv {
 
     background-color: white; 
-    width: px; 
+    color:black;
+    width: 300px; 
     padding: 20px;
-    border-radius: px;
-    align:center;
+    border-radius: 25px;
+    align:center
 }
