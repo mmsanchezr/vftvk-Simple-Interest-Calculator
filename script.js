@@ -5,6 +5,17 @@ function updateRate()
     document.getElementById("rate_val").innerText=rateval;
 }
 
+
+function validatePrincipal() 
+{
+    var principal = document.getElementById("principal").value;
+    if (principal <= 0)
+    {
+        alert("Enter a Positive Number");
+        document.getElementById("principal").focus();
+    }
+}
+
 function compute() {
 
     var principal = document.getElementById("principal").value;
